@@ -1,0 +1,16 @@
+xpath relations:
+
+preceding
+
+following
+
+sibling
+
+parent
+
+preceding-sibling
+
+following-sibling
+
+-- relative xpath                     //relation:: target xpath without //
+//input[@id="assignleave_txtFromDate"]//following-sibling::img[@class="ui-datepicker-trigger"]
