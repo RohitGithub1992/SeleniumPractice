@@ -161,15 +161,17 @@ public class SelneiumTestClass {
 //     * frames - done
 //     * testng
 //     * junit
+//     * jenkins
 //     * methods
 //     * window handle -- done
 //     * file download/upload -- done
 //     * dropdown - done
 //     * actions - done
 //     * alert - done
-//     * findelements -- done
+//     * findElements -- done
 //     * scroll- done
-//     * collection: set - done
+//     * collection: set -- done
+//     * exception - done
 //     *
 //     */
 //
@@ -219,14 +221,20 @@ public class SelneiumTestClass {
 
         System.out.println(list.retainAll(l2));
 
-        System.out.println(list.get(3));
+       System.out.println(list.get(3));
 
         list.set(0, 5);
         System.out.println(list);
 
         for (Integer a:list) {
-           System.out.print(a);
+           System.out.println(a);
         }
+        String [] a= new String[7];
+        ArrayList<String> arrayList= new ArrayList<>();
+        arrayList.forEach(c-> System.out.println(c));
+        arrayList.iterator().forEachRemaining(b-> System.out.println(b));
+
+
     }
 }
 
